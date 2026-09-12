@@ -133,19 +133,3 @@ nav a.active_nav{
         text-align: center;
     }
 }
-
-@media only screen and (max-width: 760px) {
-
-  #hamburger_menu {
-     display: none;
-    }
-
-   nav {
-    display: flex !important;
-    flex-direction: row;
-    gap: 32px;
-    position: static;
-    width: auto;
-    background: none;
-   } 
-}
