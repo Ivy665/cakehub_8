@@ -61,23 +61,9 @@ aside{
 }
 
 section {
-    display: block;
-    float: right;
-    width: 70%;
-    padding-right: 20px;
-    box-sizing: border-box;
+  width: 70%;
 }
 
-.indevbody {
-    align-self: center;
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: darkolivegreen;
-    color: #807E79;
-    font-size: 19px;
-    line-height: 1.6;
-}
 
 }
     
