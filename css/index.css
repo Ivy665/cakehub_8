@@ -27,7 +27,7 @@ aside a:hover {
 
 .hero {
     width: 100%;
-    aspect-ratio: 3/1;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -47,14 +47,15 @@ aside a:hover {
 @media only screen and (min-width: 760px) {
     main {
         display: flex;
-        padding-right: 25px;
-        box-sizing: border-box;
+        align-items: stretch;
+        gap: 16px;
+        padding: 16px;
+    }
     }
 aside{
-    align-items: center;
     display: flex;
     flex-direction: column;
-    float: left;
+    align-items: center;
     justify-content: center;
     width: 30%;
 }
